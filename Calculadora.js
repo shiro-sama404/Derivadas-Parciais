@@ -148,10 +148,10 @@ function displayError(){
     clearBtn.style.animation = "error-txt-anim 700ms ease";
 
     outputDisplay.innerHTML = "Expressão inválida.";
-    setTimeout("DisplayNormal()", 700);
+    setTimeout("displayNormal()", 700);
 }
 
-function DisplayNormal(){
+function displayNormal(){
     outputDisplay.style.animation = null;
     document.getElementById('inputDisplay').style.animation = null;
     enterBtn.style.animation = null;
